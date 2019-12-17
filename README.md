@@ -10,7 +10,7 @@ This app is your first step towards becoming the world's greatest burger connois
 
 ## EXAMPLE:
 ![Showcasing the full functionality](burgerz-example.gif)
-
+<!-- Complete -->
 ### STEP 1: VIEW THE DATA
 All of the burger data is stored in the db.json file. You'll want to access this data using a json server. In order to do this, run the following command:
   - npm install -g json-server
@@ -20,9 +20,11 @@ This will setup the data on a server using restful routes at http://localhost:30
 
 Go to that url in your browser to view the data.
 
+ <!-- Complete -->
 ### STEP 2: ADD BURGERS TO BURGERLIST
 On page load, make a fetch
 to get all of the burger data. When you have this information, render the burger names to the BurgerList.
+
 
 ### STEP 3: DISPLAY INFO ABOUT EACH BURGER ON CLICK
 When a user clicks on the 'Show' button below a burger in the BurgerList, that burger's info (image, name, and category) should display in the BurgerDisplay component.
